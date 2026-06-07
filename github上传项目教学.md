@@ -144,6 +144,7 @@ git push
 
 ```bash
 git rm --cached 文件路径
+git rm -r --cached 文件夹路径 （加 -r 参数递归删除文件夹）
 # 同时把该路径加入 .gitignore，防止下次又被追踪
 git commit -m "remove: 文件名 from tracking"
 git push
