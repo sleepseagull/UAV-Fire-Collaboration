@@ -105,6 +105,8 @@ python update_user_question.py
 
 ### 训练前配置
 
+在 `qwen/qwen2.5-vl`中新建 `images`文件夹，将用于训练的图片存入。
+
 打开 `train_new.py`，修改顶部配置区的路径：
 
 ```python
@@ -116,7 +118,7 @@ OUTPUT_DIR = "./output/Qwen2.5-VL-3B"
 ###  执行训练
 
 ```bash
-cd qwen2.5-vl
+cd qwen/qwen2.5-vl
 python train_new.py
 ```
 
