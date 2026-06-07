@@ -122,7 +122,7 @@ git push --set-upstream origin main
 
 ## 日常维护
 
-### 只更新某个文件
+### 1、只更新某个文件
 
 ```bash
 git add 文件路径
@@ -130,7 +130,7 @@ git commit -m "update: 描述改了什么"
 git push
 ```
 
-### 删除仓库中多余的文件
+### 2、删除仓库中多余的文件
 
 本地和仓库都删除：
 
@@ -148,3 +148,17 @@ git rm --cached 文件路径
 git commit -m "remove: 文件名 from tracking"
 git push
 ```
+
+### 3、两边历史分叉了，直接 push 被拒
+问题描述：
+
+本地 main：有 a 个新提交（remove1, update3, update2...）
+
+远端 origin/main：有 b 个本地没有的提交（Add files via upload，这是在 GitHub 网页上直接上传文件产生的）
+
+运行这两条：
+```bash
+git pull --rebase origin main
+git push
+```
+pull --rebase 会先把远端那个提交拉下来，再把你本地的 5 个提交接在后面，然后 push 就能成功了。
