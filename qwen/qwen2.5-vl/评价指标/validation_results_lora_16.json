@@ -1,0 +1,1017 @@
+{
+  "config": {
+    "model": "Qwen/Qwen2.5-VL-3B-Instruct",
+    "use_lora": true,
+    "checkpoint": "./output/Qwen2.5-VL-3B_exp_20260226_214119/checkpoint-150",
+    "num_samples": 100,
+    "seed": 42
+  },
+  "metrics": {
+    "Fire Detection Accuracy": 0.96,
+    "Grid IoU (Fire only)": 0.542272806558521,
+    "Exact Match": 0.11,
+    "Format Compliance": 0.92
+  },
+  "details": [
+    {
+      "id": "identity_115",
+      "image": "images/2daa206d-f8cf-4029-89b3-a3f8100a93dd.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、左下、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.25,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_26",
+      "image": "images/102ebc57-6887-4139-a3ef-c3a51d1fb4d5.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_282",
+      "image": "images/acacc182-7eaf-490b-b29b-b8bea0877863.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.1111111111111111,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_251",
+      "image": "images/94660aae-d9a0-4150-847a-7d8dd45af622.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.2857142857142857,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_229",
+      "image": "images/85c7c29d-2f44-44b3-8d29-41ab65ba97d0.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上板块。",
+      "fire_correct": true,
+      "grid_iou": 0.5,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_143",
+      "image": "images/4271672f-be9e-40ba-a4ad-0c9df8a01ae8.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_105",
+      "image": "images/2853723335_44fdafb8fa_o.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、右上、左中、中、右中、左下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.625,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_559",
+      "image": "images/pic (77).jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.8571428571428571,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_90",
+      "image": "images/20200713172614.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中、右中、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.4,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_605",
+      "image": "images/small (70).jpg",
+      "ground_truth": "不，这不是一张火灾图像。\n\n这是一张关于蜡烛的图片。",
+      "prediction": "不，这不是一张火灾图像。\n\n这是一张展示镜子和蜡烛的照片。火焰主要占据了图片九宫格的右下板块。",
+      "fire_correct": true,
+      "grid_iou": null,
+      "exact_match": false,
+      "format_ok": false
+    },
+    {
+      "id": "identity_433",
+      "image": "images/fire094.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、右上、中、右中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_33",
+      "image": "images/12826b80-9a31-49fb-8c57-514799126d77.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、右上、中、右中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_31",
+      "image": "images/11983b26-c87f-4d95-b4de-d4fd9c4367a4.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_96",
+      "image": "images/21588630-a5d7-427a-9e41-f85c7c9d58c7.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、左中、中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上板块。",
+      "fire_correct": true,
+      "grid_iou": 0.75,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_224",
+      "image": "images/7ea8d204-a240-4f5e-9073-69fb418015fb.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、左中、中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_239",
+      "image": "images/8b26a48d-9f3d-42fa-b680-72b9b1d8a9ac.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、左中、中、左下、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.5,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_518",
+      "image": "images/pic (156).jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、右上、中、右中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.4,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_28",
+      "image": "images/10558b04-0d3c-4dba-a1b0-f34ecd49d11d.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中、右中、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.4,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_575",
+      "image": "images/rs-237211-GettyImages-53372022.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_204",
+      "image": "images/6df5a6aa-cdb8-4043-aa4b-d99f7c1a9686.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、左中、中、左下、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.5,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_610",
+      "image": "images/small (90).jpg",
+      "ground_truth": "不，这不是一张火灾图像。\n\n这是一张关于蜡烛的图片。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": false,
+      "grid_iou": null,
+      "exact_match": false,
+      "format_ok": false
+    },
+    {
+      "id": "identity_430",
+      "image": "images/fire082.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_226",
+      "image": "images/80732bf5-be0b-4b73-9565-fd597aaeaa4c.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、左中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上板块。",
+      "fire_correct": true,
+      "grid_iou": 0.4,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_460",
+      "image": "images/img (18).jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中、右中、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中、右板块。",
+      "fire_correct": true,
+      "grid_iou": 0.25,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_285",
+      "image": "images/aefdba58-1f5a-405c-b107-96f990e0126e.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "fire_correct": true,
+      "grid_iou": 1.0,
+      "exact_match": true,
+      "format_ok": true
+    },
+    {
+      "id": "identity_7",
+      "image": "images/01efe90c-7ebe-413b-af2c-7193822cbb4a.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "fire_correct": true,
+      "grid_iou": 1.0,
+      "exact_match": true,
+      "format_ok": true
+    },
+    {
+      "id": "identity_164",
+      "image": "images/4fb073df-3f01-499d-b691-3c7da60011be.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.3333333333333333,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_607",
+      "image": "images/small (79).jpg",
+      "ground_truth": "不，这不是一张火灾图像。\n\n这是一张关于吸烟的图片。",
+      "prediction": "这张图片不属于火灾图像。\n\n关于火焰所占图片九宫格的板块：\n- 左上：0\n- 中上：1\n- 右上：2\n- 左中：3\n- 中：4\n- 右中：5\n- 左下：6\n- 中下：7\n- 右下：8",
+      "fire_correct": true,
+      "grid_iou": null,
+      "exact_match": false,
+      "format_ok": false
+    },
+    {
+      "id": "identity_349",
+      "image": "images/d2f0e634-1d0d-444c-8184-b4ba0df24a2a.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_593",
+      "image": "images/small (2).jpg",
+      "ground_truth": "不，这不是一张火灾图像。\n\n这是一张关于吸烟的图片。",
+      "prediction": "不，这不是一张火灾图像。\n\n这是一张关于使用打火机的图片。火焰没有出现在图片中。",
+      "fire_correct": true,
+      "grid_iou": null,
+      "exact_match": false,
+      "format_ok": false
+    },
+    {
+      "id": "identity_160",
+      "image": "images/4d0ee0bb-7886-4b86-b85d-5d70cd4c340e.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "fire_correct": true,
+      "grid_iou": 0.7777777777777778,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_221",
+      "image": "images/7e480fcb-d3ec-4d38-a833-9c6c4396a6e3.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.3333333333333333,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_345",
+      "image": "images/d00cc0fe53897ff01f30eba713ac8ef0.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 1.0,
+      "exact_match": true,
+      "format_ok": true
+    },
+    {
+      "id": "identity_611",
+      "image": "images/small (97).jpg",
+      "ground_truth": "不，这不是一张火灾图像。\n\n这是一张关于吸烟的图片。",
+      "prediction": "这张图片看起来像是一个手持打火机点燃香烟的场景。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": false,
+      "grid_iou": null,
+      "exact_match": false,
+      "format_ok": false
+    },
+    {
+      "id": "identity_95",
+      "image": "images/20b74ff0-2ef2-4125-aa63-2adbe0aaffe9.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中、左下、中下、右下板块。",
+      "fire_correct": true,
+      "grid_iou": 0.8333333333333334,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_390",
+      "image": "images/f2485641-d94b-4811-8580-55da0dc2aad9.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.16666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_100",
+      "image": "images/2527edfa-c5f6-4f95-94b7-11c78008a346.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、右上、中、右中、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中、左下、中下、右下板块。",
+      "fire_correct": true,
+      "grid_iou": 0.5,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_368",
+      "image": "images/e3a004dc-d0a5-44b8-af3b-beec207d7c3b.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 1.0,
+      "exact_match": true,
+      "format_ok": true
+    },
+    {
+      "id": "identity_353",
+      "image": "images/d9d7d2a6-5252-4bfb-b1a7-74a46b97e466.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、左中、中、左下、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.375,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_271",
+      "image": "images/IMG00256.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、中板块。",
+      "fire_correct": true,
+      "grid_iou": 1.0,
+      "exact_match": true,
+      "format_ok": true
+    },
+    {
+      "id": "identity_45",
+      "image": "images/185e7908-211b-4600-b6f4-adf5757fd7b4.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的右中、左下、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.25,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_471",
+      "image": "images/img (42).jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.3333333333333333,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_550",
+      "image": "images/pic (54).jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、右上、中、右中、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.5714285714285714,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_128",
+      "image": "images/370b953d-31db-4c6c-abe3-799a61a724e4.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、右上、中、右中、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、右上、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_388",
+      "image": "images/f219e8c7-19d1-4b34-81ba-fbada00bd195.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_81",
+      "image": "images/1d4677c1-ed2f-4321-a555-f5610040931c.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.75,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_566",
+      "image": "images/pic (89).jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、左下、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.25,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_301",
+      "image": "images/bab857cd-9a54-42b5-ae3d-2e250ae395f4.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的右中、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中、左下、中下、右下板块。",
+      "fire_correct": true,
+      "grid_iou": 0.5,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_371",
+      "image": "images/e5c81c02-01ce-4a74-9c09-9784024334b2.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_197",
+      "image": "images/6ae21866-c8e6-4075-8543-b92973e2ab1e.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、左中、中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_72",
+      "image": "images/1_88.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_47",
+      "image": "images/187b7111-3763-4090-ba29-55f5182f9f2d.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.5555555555555556,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_234",
+      "image": "images/879d50c5-c8aa-413d-8868-4a1525da7413.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、中、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.2,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_297",
+      "image": "images/b6e44335-8891-4326-b7ec-010898da810a.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、左下、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.25,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_82",
+      "image": "images/1d7c97f2-39f6-43fa-bf94-ddb61e829b53.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.3333333333333333,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_602",
+      "image": "images/small (58).jpg",
+      "ground_truth": "不，这不是一张火灾图像。\n\n这是一张关于蜡烛的图片。",
+      "prediction": "这是一张日常生活场景的照片，不是火灾图像。\n\n关于“火焰占据图片九宫格的哪几个板块”，由于这张照片中没有火焰，所以无法回答这个问题。",
+      "fire_correct": true,
+      "grid_iou": null,
+      "exact_match": false,
+      "format_ok": false
+    },
+    {
+      "id": "identity_104",
+      "image": "images/2836b9ad-c28c-400c-8248-cf7af785bb90.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中、右中、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.25,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_582",
+      "image": "images/small (113).jpg",
+      "ground_truth": "不，这不是一张火灾图像。\n\n这是一张关于蜡烛的图片。",
+      "prediction": "不，这不是一张火灾图像。\n\n这张图片展示的是几支点燃的蜡烛和一朵玫瑰花，没有火灾的迹象。",
+      "fire_correct": true,
+      "grid_iou": null,
+      "exact_match": true,
+      "format_ok": true
+    },
+    {
+      "id": "identity_588",
+      "image": "images/small (124).jpg",
+      "ground_truth": "不，这不是一张火灾图像。\n\n这是一张关于吸烟的图片。",
+      "prediction": "这张图片显示了一个人正在点燃一根香烟。从图片中可以看出，火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": false,
+      "grid_iou": null,
+      "exact_match": false,
+      "format_ok": false
+    },
+    {
+      "id": "identity_465",
+      "image": "images/img (30).jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.3333333333333333,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_374",
+      "image": "images/e6decc66-3bb8-48cc-927f-61bcacedba61.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中、左下、中下、右下板块。",
+      "fire_correct": true,
+      "grid_iou": 1.0,
+      "exact_match": true,
+      "format_ok": true
+    },
+    {
+      "id": "identity_167",
+      "image": "images/525f25f7-5a1a-4923-917e-675b88eeb421.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、中、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.2857142857142857,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_380",
+      "image": "images/ed6e2042-e0db-4bf1-99cc-bf3786c0d187.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、右上、中、右中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中、左下、中下、右下板块。",
+      "fire_correct": true,
+      "grid_iou": 0.25,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_364",
+      "image": "images/e09494d7-3388-4a40-b891-8716faa4f79a.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、中、右中、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.5,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_215",
+      "image": "images/72decdb5-6615-4221-b314-1fc9cd8959b3.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、左中、中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_274",
+      "image": "images/a19cfadf-1f5a-4e0e-94e7-d0aebad0d881.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中、左下、中下、右下板块。",
+      "fire_correct": true,
+      "grid_iou": 1.0,
+      "exact_match": true,
+      "format_ok": true
+    },
+    {
+      "id": "identity_74",
+      "image": "images/1_9.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上板块。",
+      "fire_correct": true,
+      "grid_iou": 0.5,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_176",
+      "image": "images/5dc2ffbb-77aa-422f-9927-f282e7504fd6.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、左中、中、右中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.8333333333333334,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_547",
+      "image": "images/pic (39).jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中、右中、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.4,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_614",
+      "image": "images/u=3461778668,3258234930&fm=26&gp=0.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、左中、中、左下、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.5,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_168",
+      "image": "images/52aab185-e34c-48ac-b738-2295d8c748bc.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中、右中、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中、右中、中下、右下板块。",
+      "fire_correct": true,
+      "grid_iou": 1.0,
+      "exact_match": true,
+      "format_ok": true
+    },
+    {
+      "id": "identity_474",
+      "image": "images/img (50).jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.3333333333333333,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_389",
+      "image": "images/f2341554-0953-40e9-9e4b-aad81b0f5ff4.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.5,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_277",
+      "image": "images/a4726488-698a-4b3e-8ae2-599fd4680c9e.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.3333333333333333,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_225",
+      "image": "images/800px-Fires_cross_a_hill_in_SoCal_October_2007.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、右上、左中、中、右中、左下、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.625,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_333",
+      "image": "images/c819baff-edb6-4f5c-9912-82cb06704b50.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、中、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上板块。",
+      "fire_correct": true,
+      "grid_iou": 0.4,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_58",
+      "image": "images/1_4.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.3333333333333333,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_235",
+      "image": "images/87e9df16-90fd-48bf-b5bc-19e2bdd4ba94.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、左中、中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_606",
+      "image": "images/small (75).jpg",
+      "ground_truth": "不，这不是一张火灾图像。\n\n这是一张关于吸烟的图片。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": false,
+      "grid_iou": null,
+      "exact_match": false,
+      "format_ok": false
+    },
+    {
+      "id": "identity_324",
+      "image": "images/c3d18601-d767-49e4-9301-6500df0e7ca8.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、左中、中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.4444444444444444,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_411",
+      "image": "images/fire019.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、左中、中、左下、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.5,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_275",
+      "image": "images/a23e24e2-30e5-4481-a93c-e068ebd8dedb.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.5,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_68",
+      "image": "images/1_74.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中、右中、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.4,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_217",
+      "image": "images/76dba0e1-fc96-4263-99fb-642fe4ca2bb5.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、左中、中、左下、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.5,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_323",
+      "image": "images/c2dc2390-993f-4908-b1e9-71ea02476914.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.3333333333333333,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_218",
+      "image": "images/78917323-88fe-48a3-a7f8-c587b355ee0d.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.3333333333333333,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_512",
+      "image": "images/pic (136).jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、右上、中、右中、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中、右板块。",
+      "fire_correct": true,
+      "grid_iou": 0.16666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_406",
+      "image": "images/fire002.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、左下、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.4,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_470",
+      "image": "images/img (41).jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.3333333333333333,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_147",
+      "image": "images/43be9a61-0165-4141-8910-f25877baa125.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.375,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_272",
+      "image": "images/Still1115_00000_1479245056445_7039374_ver1.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "fire_correct": true,
+      "grid_iou": 1.0,
+      "exact_match": true,
+      "format_ok": true
+    },
+    {
+      "id": "identity_612",
+      "image": "images/u=1813637191,1522406631&fm=26&gp=0.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、左中、中、右中、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.5,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_253",
+      "image": "images/956f197d-c647-4821-8f6c-bfd221db5749.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、右上、左中、中、右中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "fire_correct": true,
+      "grid_iou": 0.5555555555555556,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_270",
+      "image": "images/FlamesEverett.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、中、中下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.2857142857142857,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_439",
+      "image": "images/fire112.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中板块。",
+      "fire_correct": true,
+      "grid_iou": 1.0,
+      "exact_match": true,
+      "format_ok": true
+    },
+    {
+      "id": "identity_409",
+      "image": "images/fire014.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中、左下、中下、右下板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_569",
+      "image": "images/pic (92).jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、左中、中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_543",
+      "image": "images/pic (30).jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、左中、中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_142",
+      "image": "images/4131a628-4f5c-4ee4-a029-c16f033a597f.jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、左中、中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上、左中、中、右中板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6666666666666666,
+      "exact_match": false,
+      "format_ok": true
+    },
+    {
+      "id": "identity_506",
+      "image": "images/pic (125).jpg",
+      "ground_truth": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的中上、右上、中、右中板块。",
+      "prediction": "是的，这是一张火灾图像。\n\n火焰主要占据了图片九宫格的左上、中上、右上板块。",
+      "fire_correct": true,
+      "grid_iou": 0.6,
+      "exact_match": false,
+      "format_ok": true
+    }
+  ]
+}
