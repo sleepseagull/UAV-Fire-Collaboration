@@ -165,15 +165,14 @@ python collaboration.py --image /path/to/test.jpg --save-vis
 
 # 批量 + 自定义输出目录
 ```bash
-python collaboration.py --image-dir ./images/ --save-vis --output-dir ./vis_results/
-python collaboration.py --image-dir ./images/ --save-vis --output-dir ./vis_results_100/
+python collaboration.py --image-dir ./images/ --save-vis --output-dir ./results/vis_results_100/
 ```
 不加 --save-vis 的话，只有终端文本输出，不会生成可视化图片。加上这个参数后，每张图推理完会调用 visualize_result() 生成一张标注
 
 ## 禁用位置一致性检查（只做双重验证，不做九宫格对比）
 ```bash
 python collaboration.py --image /path/to/test.jpg --no-grid-check
-python collaboration.py --image-dir ./images/ --save-vis --output-dir ./vis_results_no9_final/ --no-grid-check
+python collaboration.py --image-dir ./images/ --save-vis --output-dir ./result/no-grid-check/ --no-grid-check
 ```
 
 ## 输出说明
