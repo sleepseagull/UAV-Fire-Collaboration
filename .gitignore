@@ -32,15 +32,12 @@ qwen/qwen2.5-vl/output/checkpoint-140/
 # ===================================================
 yolo/yolo11课件、模型结构图
 yolo/注意力缝合课件、论文
-yolo/Attmodules
 yolo/examples
 yolo/docs
 yolo/火灾分析.txt
-yolo/yolov11-attention/examples
-yolo/yolov11-attention/docs
 yolo/yolov11/runs/detect/exp8
 yolo/yolov11/runs/detect/train2-yolo11+fire+smoke/weights/
-yolo/yolov11/开始做注意力机制
+yolo/开始做注意力机制
 
 # ===================================================
 # Word / PowerPoint 文档（不适合 git 管理）
